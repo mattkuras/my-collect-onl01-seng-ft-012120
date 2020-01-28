@@ -1,6 +1,7 @@
 my_collect(array)
-collection = []
   i = 0 
+  collection = []
+
   while i < array.length 
   yield array[i]
   i = i + 1 
