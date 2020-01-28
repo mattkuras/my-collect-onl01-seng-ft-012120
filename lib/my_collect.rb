@@ -4,5 +4,6 @@ my_collect(array)
 
   while i < array.length 
   yield array[i]
+  collection << array[i]
   i = i + 1 
 
